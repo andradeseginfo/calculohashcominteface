@@ -45,7 +45,7 @@ class Application:
 		self.mensagem = Label(self.quartoContainer, text="", font=self.fontePadrao)
 		self.mensagem.pack()
   
-    #Método verificar senha
+	#Método verificar senha
 	def criahash(self):
 	
 		diretorio = self.caminho.get()
